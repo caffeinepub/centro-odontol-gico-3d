@@ -19594,12 +19594,12 @@ function App() {
             {
               icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { size: 24, "aria-hidden": "true" }),
               title: "Teléfono / WhatsApp",
-              lines: ["+51 999 999 999", "Lunes a Sábado"]
+              lines: ["940157897"]
             },
             {
               icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { size: 24, "aria-hidden": "true" }),
               title: "Horario de Atención",
-              lines: ["Lun – Vie: 9:00 – 19:00", "Sáb: 9:00 – 14:00"]
+              lines: ["Lunes a Domingo de 8 am a 8:30 pm"]
             }
           ].map((item) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "div",
@@ -19649,7 +19649,7 @@ function App() {
             {
               icon: /* @__PURE__ */ jsxRuntimeExports.jsx(FaWhatsapp, { size: 20 }),
               label: "WhatsApp",
-              href: "https://wa.me/51999999999"
+              href: "https://wa.me/51940157897"
             }
           ].map((s) => /* @__PURE__ */ jsxRuntimeExports.jsx(
             "a",
@@ -19692,7 +19692,7 @@ function App() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "a",
       {
-        href: "https://wa.me/51999999999",
+        href: "https://wa.me/51940157897",
         target: "_blank",
         rel: "noopener noreferrer",
         className: "fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] hover:bg-[#1db954] rounded-full flex items-center justify-center text-white shadow-elevated transition-smooth hover:scale-110",
