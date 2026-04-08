@@ -914,12 +914,12 @@ export default function App() {
               {
                 icon: <Phone size={24} aria-hidden="true" />,
                 title: "Teléfono / WhatsApp",
-                lines: ["940157897"],
+                lines: ["997742781"],
               },
               {
                 icon: <Clock size={24} aria-hidden="true" />,
                 title: "Horario de Atención",
-                lines: ["Lunes a Domingo de 8 am a 8:30 pm"],
+                lines: ["Lunes a Sábado de 8 am a 8:30 pm"],
               },
             ].map((item) => (
               <div
@@ -981,7 +981,7 @@ export default function App() {
               {
                 icon: <FaWhatsapp size={20} />,
                 label: "WhatsApp",
-                href: "https://wa.me/51940157897",
+                href: "https://wa.me/51997742781",
               },
             ].map((s) => (
               <a
@@ -1028,7 +1028,7 @@ export default function App() {
 
       {/* ── Floating WhatsApp ────────────────────────────────────────────── */}
       <a
-        href="https://wa.me/51940157897"
+        href="https://wa.me/51997742781"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] hover:bg-[#1db954] rounded-full flex items-center justify-center text-white shadow-elevated transition-smooth hover:scale-110"
