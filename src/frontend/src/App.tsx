@@ -598,18 +598,38 @@ export default function App() {
       <section id="clinica" className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative">
+            <div className="flex flex-col gap-4">
               {/* Main clinic image */}
-              <img
-                src="/assets/img-16.jpeg"
-                alt="Clínica Odontológica Digital 3D — instalaciones modernas"
-                className="w-full h-64 lg:h-72 object-cover rounded-2xl shadow-elevated"
-              />
-              <div className="absolute -bottom-5 -right-5 bg-[#00AEEF] text-white rounded-2xl px-6 py-4 shadow-lg font-display">
-                <div className="font-bold text-2xl">+15</div>
-                <div className="text-sm font-body opacity-90">
-                  Años de experiencia
+              <div className="relative">
+                <img
+                  src="/assets/img-16.jpeg"
+                  alt="Clínica Odontológica Digital 3D — instalaciones modernas"
+                  className="w-full h-64 lg:h-72 object-cover rounded-2xl shadow-elevated"
+                />
+                <div className="absolute -bottom-5 -right-5 bg-[#00AEEF] text-white rounded-2xl px-6 py-4 shadow-lg font-display">
+                  <div className="font-bold text-2xl">+15</div>
+                  <div className="text-sm font-body opacity-90">
+                    Años de experiencia
+                  </div>
                 </div>
+              </div>
+              {/* Additional clinic photos grid */}
+              <div className="grid grid-cols-3 gap-3 mt-6">
+                <img
+                  src="/assets/img-20.jpeg"
+                  alt="Instalaciones clínica — sala de tratamiento"
+                  className="w-full h-28 object-cover rounded-xl shadow-md hover:scale-105 transition-smooth cursor-pointer"
+                />
+                <img
+                  src="/assets/img-21.jpeg"
+                  alt="Instalaciones clínica — equipo dental"
+                  className="w-full h-28 object-cover rounded-xl shadow-md hover:scale-105 transition-smooth cursor-pointer"
+                />
+                <img
+                  src="/assets/img-22.jpeg"
+                  alt="Instalaciones clínica — área de atención"
+                  className="w-full h-28 object-cover rounded-xl shadow-md hover:scale-105 transition-smooth cursor-pointer"
+                />
               </div>
             </div>
 

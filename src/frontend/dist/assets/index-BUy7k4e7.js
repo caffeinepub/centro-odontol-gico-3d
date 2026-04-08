@@ -19328,18 +19328,46 @@ function App() {
       )) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "clinica", className: "py-20 bg-muted/30", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid lg:grid-cols-2 gap-12 items-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "img",
-          {
-            src: "/assets/img-16.jpeg",
-            alt: "Clínica Odontológica Digital 3D — instalaciones modernas",
-            className: "w-full h-64 lg:h-72 object-cover rounded-2xl shadow-elevated"
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -bottom-5 -right-5 bg-[#00AEEF] text-white rounded-2xl px-6 py-4 shadow-lg font-display", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-bold text-2xl", children: "+15" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-sm font-body opacity-90", children: "Años de experiencia" })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: "/assets/img-16.jpeg",
+              alt: "Clínica Odontológica Digital 3D — instalaciones modernas",
+              className: "w-full h-64 lg:h-72 object-cover rounded-2xl shadow-elevated"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -bottom-5 -right-5 bg-[#00AEEF] text-white rounded-2xl px-6 py-4 shadow-lg font-display", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-bold text-2xl", children: "+15" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-sm font-body opacity-90", children: "Años de experiencia" })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-3 gap-3 mt-6", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: "/assets/img-20.jpeg",
+              alt: "Instalaciones clínica — sala de tratamiento",
+              className: "w-full h-28 object-cover rounded-xl shadow-md hover:scale-105 transition-smooth cursor-pointer"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: "/assets/img-21.jpeg",
+              alt: "Instalaciones clínica — equipo dental",
+              className: "w-full h-28 object-cover rounded-xl shadow-md hover:scale-105 transition-smooth cursor-pointer"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: "/assets/img-22.jpeg",
+              alt: "Instalaciones clínica — área de atención",
+              className: "w-full h-28 object-cover rounded-xl shadow-md hover:scale-105 transition-smooth cursor-pointer"
+            }
+          )
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
