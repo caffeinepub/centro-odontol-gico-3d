@@ -21,6 +21,7 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 const NAV_LINKS = [
@@ -975,9 +976,14 @@ export default function App() {
               {
                 icon: <FaInstagram size={20} />,
                 label: "Instagram",
-                href: "#",
+                href: "https://www.instagram.com/leonardwalterhuamanidiaz?igsh=OGc3MzVmczk0ZmMz",
               },
               { icon: <FaYoutube size={20} />, label: "YouTube", href: "#" },
+              {
+                icon: <SiTiktok size={20} />,
+                label: "TikTok",
+                href: "https://www.tiktok.com/@dr.leonardwalterhuamani?_r=1&_t=ZS-95M7hV6bgmr",
+              },
               {
                 icon: <FaWhatsapp size={20} />,
                 label: "WhatsApp",
