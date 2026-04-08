@@ -19337,28 +19337,6 @@ function App() {
             className: "w-full h-64 lg:h-72 object-cover rounded-2xl shadow-elevated"
           }
         ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-3 gap-2 mt-2", children: [
-          {
-            src: "/assets/img-20.jpeg",
-            alt: "Clínica — instalaciones 2"
-          },
-          {
-            src: "/assets/img-21.jpeg",
-            alt: "Clínica — instalaciones 3"
-          },
-          {
-            src: "/assets/img-22.jpeg",
-            alt: "Clínica — instalaciones 4"
-          }
-        ].map((img) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "img",
-          {
-            src: img.src,
-            alt: img.alt,
-            className: "w-full h-28 lg:h-36 object-cover rounded-xl shadow-md hover:scale-105 transition-smooth cursor-pointer"
-          },
-          img.src
-        )) }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -bottom-5 -right-5 bg-[#00AEEF] text-white rounded-2xl px-6 py-4 shadow-lg font-display", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-bold text-2xl", children: "+15" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-sm font-body opacity-90", children: "Años de experiencia" })
